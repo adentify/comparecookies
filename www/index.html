@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js" defer></script> 
+
+</head>
+
+<body>
+
+  <div id="header_container">
+      <div id="header">
+          COMPARE COOKIE FILES
+      </div>
+  </div>
+
+
+  <div id="container">
+      <div id="content">
+
+        <table id="mainTable" width="100%">
+            <thead>
+              <tr>
+                <th width="50%">Cookie File 1</th>
+                <th width="50%">Cookie File 2</th>
+              </tr>
+            </thead>
+
+
+
+            <tr>
+              <td width="50%"><textarea id="file1" name="file1" rows="10" style="width:100%"></textarea></td>
+              <td width="50%"><textarea id="file2" name="file2" rows="10" style="width:100%"></textarea></td>
+            </tr>
+
+
+            <tr>
+              <td colspan="2">
+                <button type="button" onClick="main()" style="height: 50px; width: 100%;">Click To Analyse:</button>
+              </td>
+            </tr>
+        </table>
+
+        <table id="resultsTable" width="100%">
+            <thead>
+              <tr>
+                <th width="20%">Cookie Name</th>
+                <th>File 1</th>
+                <th>File 2</th>
+                <th>Present In Both</th>
+                <th>Values Match</th>
+                <th>Cookie Info</th>
+              </tr>
+            </thead>
+
+        </table>
+      </div>
+  </div>
+
+
+   
+  <div id="footer_container">
+      <div id="footer">
+
+
+      </div>
+  </div>
+
+</body>
+</html>
