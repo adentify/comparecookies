@@ -12,3 +12,4 @@ document.cookie
 You can then copy and paste to this tool.
 
 Hit Analyse and it will compare the two, flagging differences and linking to the cookie entry on https://cookiepedia.co.uk
+
